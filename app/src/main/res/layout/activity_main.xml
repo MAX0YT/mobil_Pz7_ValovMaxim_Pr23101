@@ -43,6 +43,8 @@
                 android:layout_height="30dp"
                 android:layout_marginStart="5dp"
                 android:layout_marginTop="11dp"
+                android:layout_marginEnd="1dp"
+                app:layout_constraintEnd_toStartOf="@+id/imageView8"
                 app:layout_constraintStart_toEndOf="@+id/textInputEditText2"
                 app:layout_constraintTop_toTopOf="parent"
                 app:srcCompat="@drawable/user_icon" />
@@ -52,6 +54,7 @@
                 android:layout_width="40dp"
                 android:layout_height="40dp"
                 android:layout_marginTop="6dp"
+                app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toEndOf="@+id/imageView7"
                 app:layout_constraintTop_toTopOf="parent"
                 app:srcCompat="@drawable/question_icon" />
@@ -64,6 +67,7 @@
                 android:layout_marginTop="10dp"
                 android:fontFamily="@font/inter_copy"
                 android:text="@string/name"
+                android:textColor="@color/yellow900"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/imageView5" />
 
@@ -74,6 +78,7 @@
                 android:layout_marginStart="16dp"
                 android:fontFamily="@font/inter_copy"
                 android:text="@string/hello"
+                android:textColor="@color/violette800"
                 android:textSize="10sp"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/textView4" />
@@ -113,11 +118,12 @@
                             app:srcCompat="@drawable/photo_2025_11_16_19_39_55" />
 
                         <androidx.appcompat.widget.AppCompatButton
+                            android:id="@+id/button1"
                             android:layout_width="120dp"
                             android:layout_height="45dp"
                             android:layout_marginStart="5dp"
                             android:layout_marginEnd="5dp"
-                            android:background="@color/violette500"
+                            android:background="@color/violette600"
                             android:fontFamily="@font/redrose_copy"
                             android:text="@string/click"
                             android:textAlignment="center"
@@ -147,11 +153,12 @@
                             app:srcCompat="@drawable/photo_2025_11_16_19_39_51" />
 
                         <androidx.appcompat.widget.AppCompatButton
+                            android:id="@+id/button2"
                             android:layout_width="120dp"
                             android:layout_height="45dp"
                             android:layout_marginStart="5dp"
                             android:layout_marginEnd="5dp"
-                            android:background="@color/violette500"
+                            android:background="@color/violette600"
                             android:fontFamily="@font/redrose_copy"
                             android:text="@string/click"
                             android:textAlignment="center"
@@ -182,11 +189,12 @@
                             app:srcCompat="@drawable/photo_2025_11_16_19_40_05" />
 
                         <androidx.appcompat.widget.AppCompatButton
+                            android:id="@+id/button3"
                             android:layout_width="120dp"
                             android:layout_height="45dp"
                             android:layout_marginStart="5dp"
                             android:layout_marginEnd="5dp"
-                            android:background="@color/violette500"
+                            android:background="@color/violette600"
                             android:fontFamily="@font/redrose_copy"
                             android:text="@string/click"
                             android:textAlignment="center"
@@ -216,11 +224,12 @@
                             app:srcCompat="@drawable/photo_2025_11_16_19_40_08" />
 
                         <androidx.appcompat.widget.AppCompatButton
+                            android:id="@+id/button4"
                             android:layout_width="120dp"
                             android:layout_height="45dp"
                             android:layout_marginStart="5dp"
                             android:layout_marginEnd="5dp"
-                            android:background="@color/violette500"
+                            android:background="@color/violette600"
                             android:fontFamily="@font/redrose_copy"
                             android:text="@string/click"
                             android:textAlignment="center"
@@ -258,6 +267,7 @@
                         android:id="@+id/textView8"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
+                        android:fontFamily="@font/inter_copy"
                         android:text="@string/tender" />
 
                     <HorizontalScrollView
@@ -362,28 +372,36 @@
                     android:id="@+id/radioButton"
                     android:layout_width="match_parent"
                     android:layout_height="30dp"
+                    android:fontFamily="@font/inter_copy"
                     android:text="@string/moscow"
+                    android:textColor="@color/violette900"
                     tools:text="@string/moscow" />
 
                 <RadioButton
                     android:id="@+id/radioButton2"
                     android:layout_width="match_parent"
                     android:layout_height="30dp"
+                    android:fontFamily="@font/inter_copy"
                     android:text="@string/st_peter"
+                    android:textColor="@color/violette900"
                     tools:text="@string/st_peter" />
 
                 <RadioButton
                     android:id="@+id/radioButton3"
                     android:layout_width="match_parent"
                     android:layout_height="30dp"
+                    android:fontFamily="@font/inter_copy"
                     android:text="@string/novosibirsk"
+                    android:textColor="@color/violette900"
                     tools:text="@string/novosibirsk" />
 
                 <RadioButton
                     android:id="@+id/radioButton4"
                     android:layout_width="match_parent"
                     android:layout_height="30dp"
+                    android:fontFamily="@font/inter_copy"
                     android:text="@string/vladivostok"
+                    android:textColor="@color/violette900"
                     tools:text="@string/vladivostok" />
             </RadioGroup>
         </androidx.constraintlayout.widget.ConstraintLayout>
@@ -409,6 +427,7 @@
                 android:layout_marginStart="16dp"
                 android:layout_marginTop="7dp"
                 android:text="@string/info"
+                android:textColor="@color/yellow900"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/imageView13" />
         </androidx.constraintlayout.widget.ConstraintLayout>
