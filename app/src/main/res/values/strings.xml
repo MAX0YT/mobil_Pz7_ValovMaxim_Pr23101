@@ -1,3 +1,31 @@
 <resources>
     <string name="app_name">PZ7ValovMaximPr-23101</string>
+
+    <string name="register_icon">Регистрация</string>
+    <string name="help_icon">Помощь</string>
+    <string name="enter_icon">Вход</string>
+    <string name="entry_name">Введите ваше имя</string>
+    <string name="entry_surname">Введите вашу фамилию</string>
+    <string name="entry_number">Введите ваш контактный номер</string>
+    <string name="register">Зарегестрироваться</string>
+    <string name="accept_rules">Согласен(-а) с условиями использования и политикой конфиденциальности</string>
+
+    <string name="name">Максим,</string>
+    <string name="hello">приветствуем в нашем приложении</string>
+    <string name="click">КЛИК</string>
+    <string name="tender">Предложения</string>
+    <string name="moscow">Москва</string>
+    <string name="st_peter">Санкт-Питербург</string>
+    <string name="novosibirsk">Новосибирск</string>
+    <string name="vladivostok">Владивосток</string>
+    <string name="info">Подробная информация</string>
+
+    <string name="user_1">Владислав Сибиркин</string>
+    <string name="user_2">Владислав Савриков</string>
+    <string name="user_3">Андрей Филяев</string>
+    <string name="user_4">Даниил Кручинин</string>
+    <string name="user_5">Кирилл Кондратюк</string>
+    <string name="user_6">Максим Капкунов</string>
+    <string name="user_7">Андрей Валов</string>
+    <string name="user_8">Борис Свиридов</string>
 </resources>
