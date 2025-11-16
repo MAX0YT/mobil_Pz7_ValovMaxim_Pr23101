@@ -2,4 +2,24 @@
 <resources>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+    <color name="violette900">#FF8004c7</color>
+    <color name="violette800">#FFa501d2</color>
+    <color name="violette700">#FFb900d9</color>
+    <color name="violette600">#FFcf04e0</color>
+    <color name="violette500">#FFe107e6</color>
+    <color name="violette400">#FFeb40ee</color>
+    <color name="violette300">#FFf16df3</color>
+    <color name="violette200">#FFf69bf7</color>
+    <color name="violette100">#FFf9c4f9</color>
+    <color name="violette50">#FFfde8fc</color>
+    <color name="yellow900">#FFff8a00</color>
+    <color name="yellow800">#FFffb700</color>
+    <color name="yellow700">#FFffd100</color>
+    <color name="yellow600">#FFffeb00</color>
+    <color name="yellow500">#FFffff00</color>
+    <color name="yellow400">#FFf0f234</color>
+    <color name="yellow300">#FFf5f662</color>
+    <color name="yellow200">#FFf9fa93</color>
+    <color name="yellow100">#FFfcfdc0</color>
+    <color name="yellow50">#FFffffe6</color>
 </resources>
