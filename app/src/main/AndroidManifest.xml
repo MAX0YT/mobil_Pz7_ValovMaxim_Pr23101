@@ -12,6 +12,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.PZ7ValovMaximPr23101">
         <activity
+            android:name=".main"
+            android:exported="false" />
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
