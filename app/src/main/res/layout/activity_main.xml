@@ -5,6 +5,7 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="?attr/colorPrimary"
     tools:context=".main">
 
     <LinearLayout
@@ -28,6 +29,7 @@
                 android:layout_height="48dp"
                 android:layout_marginStart="15dp"
                 android:hint="@string/search"
+                android:textColor="?android:attr/textColorSecondary"
                 android:textSize="14sp"
                 app:layout_constraintStart_toEndOf="@+id/imageView1"
                 app:layout_constraintTop_toTopOf="parent" />
@@ -75,7 +77,7 @@
                 android:layout_marginTop="8dp"
                 android:fontFamily="@font/inter_copy"
                 android:text="@string/name"
-                android:textColor="@color/violette800"
+                android:textColor="?attr/colorAccent"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/imageView3" />
 
@@ -86,7 +88,7 @@
                 android:layout_marginStart="16dp"
                 android:fontFamily="@font/inter_copy"
                 android:text="@string/hello"
-                android:textColor="@color/violette800"
+                android:textColor="?attr/colorAccent"
                 android:textSize="12sp"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/textView4" />
@@ -282,7 +284,8 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:fontFamily="@font/inter_copy"
-                        android:text="@string/tender" />
+                        android:text="@string/tender"
+                        android:textColor="?android:attr/textColorPrimary" />
 
                     <HorizontalScrollView
                         android:layout_width="380dp"
@@ -392,7 +395,7 @@
                     android:layout_height="48dp"
                     android:fontFamily="@font/inter_copy"
                     android:text="@string/moscow"
-                    android:textColor="@color/violette900"
+                    android:textColor="?attr/colorAccent"
                     tools:text="@string/moscow" />
 
                 <RadioButton
@@ -401,7 +404,7 @@
                     android:layout_height="48dp"
                     android:fontFamily="@font/inter_copy"
                     android:text="@string/st_peter"
-                    android:textColor="@color/violette900"
+                    android:textColor="?attr/colorAccent"
                     tools:text="@string/st_peter" />
 
                 <RadioButton
@@ -410,7 +413,7 @@
                     android:layout_height="48dp"
                     android:fontFamily="@font/inter_copy"
                     android:text="@string/novosibirsk"
-                    android:textColor="@color/violette900"
+                    android:textColor="?attr/colorAccent"
                     tools:text="@string/novosibirsk" />
 
                 <RadioButton
@@ -419,7 +422,7 @@
                     android:layout_height="48dp"
                     android:fontFamily="@font/inter_copy"
                     android:text="@string/vladivostok"
-                    android:textColor="@color/violette900"
+                    android:textColor="?attr/colorAccent"
                     tools:text="@string/vladivostok" />
 
             </RadioGroup>

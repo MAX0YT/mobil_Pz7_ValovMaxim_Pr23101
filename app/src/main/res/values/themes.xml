@@ -1,9 +1,19 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
     <!-- Base application theme. -->
-    <style name="Base.Theme.PZ7ValovMaximPr23101" parent="Theme.Material3.DayNight.NoActionBar">
-        <!-- Customize your light theme here. -->
-        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+    <style name="Theme.PZ7ValovMaximPr23101" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/white</item>
+        <item name="colorSecondary">@color/black</item>
+        <item name="android:textColorPrimary">@color/black</item>
+        <item name="android:textColorSecondary">@color/secondaryColorLight</item>
+        <item name="colorAccent">@color/violette800</item>
+        <item name="colorPrimaryContainer">@color/yellow200</item>
     </style>
-
-    <style name="Theme.PZ7ValovMaximPr23101" parent="Base.Theme.PZ7ValovMaximPr23101" />
+    <style name="Night.Theme.PZ7ValovMaximPr23101" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/grey</item>
+        <item name="colorSecondary">@color/white</item>
+        <item name="android:textColorPrimary">@color/white</item>
+        <item name="android:textColorSecondary">@color/secondaryColorNight</item>
+        <item name="colorAccent">@color/violette500</item>
+        <item name="colorPrimaryContainer">@color/yellowbg</item>
+    </style>
 </resources>

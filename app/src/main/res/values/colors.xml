@@ -2,6 +2,9 @@
 <resources>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+    <color name="grey">#2E2E31</color>
+    <color name="secondaryColorLight">#B0AFB1</color>
+    <color name="secondaryColorNight">#dddbde</color>
     <color name="violette900">#FF8004c7</color>
     <color name="violette800">#FFa501d2</color>
     <color name="violette700">#FFb900d9</color>
@@ -12,6 +15,7 @@
     <color name="violette200">#FFf69bf7</color>
     <color name="violette100">#FFf9c4f9</color>
     <color name="violette50">#FFfde8fc</color>
+    <color name="yellowbg">#26FFFF00</color>
     <color name="yellow900">#FFff8a00</color>
     <color name="yellow800">#FFffb700</color>
     <color name="yellow700">#FFffd100</color>
