@@ -8,54 +8,62 @@
     tools:context=".main">
 
     <LinearLayout
-        android:layout_width="409dp"
-        android:layout_height="729dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="1dp"
+        android:layout_marginEnd="1dp"
         android:orientation="vertical"
-        tools:layout_editor_absoluteX="1dp"
-        tools:layout_editor_absoluteY="1dp">
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
 
         <androidx.constraintlayout.widget.ConstraintLayout
             android:layout_width="match_parent"
-            android:layout_height="88dp">
+            android:layout_height="wrap_content">
 
             <com.google.android.material.textfield.TextInputEditText
                 android:id="@+id/textInputEditText2"
                 android:layout_width="275dp"
-                android:layout_height="45dp"
+                android:layout_height="48dp"
                 android:layout_marginStart="15dp"
+                android:hint="@string/search"
                 android:textSize="14sp"
-                app:layout_constraintStart_toEndOf="@+id/imageView5"
+                app:layout_constraintStart_toEndOf="@+id/imageView1"
                 app:layout_constraintTop_toTopOf="parent" />
 
             <ImageView
-                android:id="@+id/imageView5"
+                android:id="@+id/imageView1"
                 android:layout_width="35dp"
                 android:layout_height="35dp"
                 android:layout_marginStart="10dp"
                 android:layout_marginTop="6dp"
+                android:contentDescription="@string/name"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent"
                 app:srcCompat="@drawable/photo_2025_11_16_19_39_31" />
 
             <ImageView
-                android:id="@+id/imageView7"
+                android:id="@+id/imageView2"
                 android:layout_width="30dp"
                 android:layout_height="30dp"
                 android:layout_marginStart="5dp"
                 android:layout_marginTop="11dp"
                 android:layout_marginEnd="1dp"
-                app:layout_constraintEnd_toStartOf="@+id/imageView8"
+                android:contentDescription="@string/enter_icon_desc"
+                app:layout_constraintEnd_toStartOf="@+id/imageView3"
                 app:layout_constraintStart_toEndOf="@+id/textInputEditText2"
                 app:layout_constraintTop_toTopOf="parent"
                 app:srcCompat="@drawable/user_icon" />
 
             <ImageView
-                android:id="@+id/imageView8"
-                android:layout_width="40dp"
+                android:id="@+id/imageView3"
+                android:layout_width="0dp"
                 android:layout_height="40dp"
                 android:layout_marginTop="6dp"
+                android:contentDescription="@string/help_icon_desc"
                 app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintStart_toEndOf="@+id/imageView7"
+                app:layout_constraintStart_toEndOf="@+id/imageView2"
                 app:layout_constraintTop_toTopOf="parent"
                 app:srcCompat="@drawable/question_icon" />
 
@@ -64,12 +72,12 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="16dp"
-                android:layout_marginTop="10dp"
+                android:layout_marginTop="8dp"
                 android:fontFamily="@font/inter_copy"
                 android:text="@string/name"
-                android:textColor="@color/yellow900"
+                android:textColor="@color/violette800"
                 app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/imageView5" />
+                app:layout_constraintTop_toBottomOf="@+id/imageView3" />
 
             <TextView
                 android:id="@+id/textView5"
@@ -79,7 +87,7 @@
                 android:fontFamily="@font/inter_copy"
                 android:text="@string/hello"
                 android:textColor="@color/violette800"
-                android:textSize="10sp"
+                android:textSize="12sp"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/textView4" />
 
@@ -106,12 +114,13 @@
                         android:layout_height="match_parent">
 
                         <ImageView
-                            android:id="@+id/imageView9"
+                            android:id="@+id/imageView6"
                             android:layout_width="120dp"
                             android:layout_height="120dp"
                             android:layout_marginStart="5dp"
                             android:layout_marginTop="5dp"
                             android:layout_marginEnd="5dp"
+                            android:contentDescription="@string/user"
                             app:layout_constraintEnd_toEndOf="parent"
                             app:layout_constraintStart_toStartOf="parent"
                             app:layout_constraintTop_toTopOf="parent"
@@ -120,7 +129,7 @@
                         <androidx.appcompat.widget.AppCompatButton
                             android:id="@+id/button1"
                             android:layout_width="120dp"
-                            android:layout_height="45dp"
+                            android:layout_height="48dp"
                             android:layout_marginStart="5dp"
                             android:layout_marginEnd="5dp"
                             android:background="@color/violette600"
@@ -133,7 +142,7 @@
                             android:typeface="normal"
                             app:layout_constraintEnd_toEndOf="parent"
                             app:layout_constraintStart_toStartOf="parent"
-                            app:layout_constraintTop_toBottomOf="@+id/imageView9" />
+                            app:layout_constraintTop_toBottomOf="@+id/imageView6" />
                     </androidx.constraintlayout.widget.ConstraintLayout>
 
                     <androidx.constraintlayout.widget.ConstraintLayout
@@ -141,12 +150,13 @@
                         android:layout_height="match_parent">
 
                         <ImageView
-                            android:id="@+id/imageView9"
+                            android:id="@+id/imageView7"
                             android:layout_width="120dp"
                             android:layout_height="120dp"
                             android:layout_marginStart="5dp"
                             android:layout_marginTop="5dp"
                             android:layout_marginEnd="5dp"
+                            android:contentDescription="@string/user"
                             app:layout_constraintEnd_toEndOf="parent"
                             app:layout_constraintStart_toStartOf="parent"
                             app:layout_constraintTop_toTopOf="parent"
@@ -155,7 +165,7 @@
                         <androidx.appcompat.widget.AppCompatButton
                             android:id="@+id/button2"
                             android:layout_width="120dp"
-                            android:layout_height="45dp"
+                            android:layout_height="48dp"
                             android:layout_marginStart="5dp"
                             android:layout_marginEnd="5dp"
                             android:background="@color/violette600"
@@ -168,7 +178,7 @@
                             android:typeface="normal"
                             app:layout_constraintEnd_toEndOf="parent"
                             app:layout_constraintStart_toStartOf="parent"
-                            app:layout_constraintTop_toBottomOf="@+id/imageView9" />
+                            app:layout_constraintTop_toBottomOf="@+id/imageView7" />
                     </androidx.constraintlayout.widget.ConstraintLayout>
 
                     <androidx.constraintlayout.widget.ConstraintLayout
@@ -176,12 +186,13 @@
                         android:layout_height="match_parent">
 
                         <ImageView
-                            android:id="@+id/imageView9"
+                            android:id="@+id/imageView8"
                             android:layout_width="120dp"
                             android:layout_height="120dp"
                             android:layout_marginStart="5dp"
                             android:layout_marginTop="5dp"
                             android:layout_marginEnd="5dp"
+                            android:contentDescription="@string/user"
                             android:scaleType="fitXY"
                             app:layout_constraintEnd_toEndOf="parent"
                             app:layout_constraintStart_toStartOf="parent"
@@ -191,7 +202,7 @@
                         <androidx.appcompat.widget.AppCompatButton
                             android:id="@+id/button3"
                             android:layout_width="120dp"
-                            android:layout_height="45dp"
+                            android:layout_height="48dp"
                             android:layout_marginStart="5dp"
                             android:layout_marginEnd="5dp"
                             android:background="@color/violette600"
@@ -204,7 +215,7 @@
                             android:typeface="normal"
                             app:layout_constraintEnd_toEndOf="parent"
                             app:layout_constraintStart_toStartOf="parent"
-                            app:layout_constraintTop_toBottomOf="@+id/imageView9" />
+                            app:layout_constraintTop_toBottomOf="@+id/imageView8" />
                     </androidx.constraintlayout.widget.ConstraintLayout>
 
                     <androidx.constraintlayout.widget.ConstraintLayout
@@ -218,6 +229,7 @@
                             android:layout_marginStart="5dp"
                             android:layout_marginTop="5dp"
                             android:layout_marginEnd="5dp"
+                            android:contentDescription="@string/user"
                             app:layout_constraintEnd_toEndOf="parent"
                             app:layout_constraintStart_toStartOf="parent"
                             app:layout_constraintTop_toTopOf="parent"
@@ -226,7 +238,7 @@
                         <androidx.appcompat.widget.AppCompatButton
                             android:id="@+id/button4"
                             android:layout_width="120dp"
-                            android:layout_height="45dp"
+                            android:layout_height="48dp"
                             android:layout_marginStart="5dp"
                             android:layout_marginEnd="5dp"
                             android:background="@color/violette600"
@@ -261,7 +273,9 @@
                     android:layout_width="390dp"
                     android:layout_height="150dp"
                     android:orientation="vertical"
-                    tools:layout_editor_absoluteX="1dp">
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent">
 
                     <TextView
                         android:id="@+id/textView8"
@@ -271,8 +285,8 @@
                         android:text="@string/tender" />
 
                     <HorizontalScrollView
-                        android:layout_width="390dp"
-                        android:layout_height="130dp">
+                        android:layout_width="380dp"
+                        android:layout_height="wrap_content">
 
                         <LinearLayout
                             android:layout_width="wrap_content"
@@ -284,12 +298,13 @@
                                 android:layout_height="match_parent">
 
                                 <ImageView
-                                    android:id="@+id/imageView11"
+                                    android:id="@+id/imageView10"
                                     android:layout_width="120dp"
                                     android:layout_height="120dp"
                                     android:layout_marginStart="5dp"
                                     android:layout_marginTop="5dp"
                                     android:layout_marginEnd="5dp"
+                                    android:contentDescription="@string/user"
                                     android:scaleType="fitXY"
                                     app:layout_constraintEnd_toEndOf="parent"
                                     app:layout_constraintStart_toStartOf="parent"
@@ -308,6 +323,7 @@
                                     android:layout_marginStart="5dp"
                                     android:layout_marginTop="5dp"
                                     android:layout_marginEnd="5dp"
+                                    android:contentDescription="@string/user"
                                     android:scaleType="fitXY"
                                     app:layout_constraintEnd_toEndOf="parent"
                                     app:layout_constraintStart_toStartOf="parent"
@@ -320,12 +336,13 @@
                                 android:layout_height="match_parent">
 
                                 <ImageView
-                                    android:id="@+id/imageView11"
+                                    android:id="@+id/imageView12"
                                     android:layout_width="120dp"
                                     android:layout_height="120dp"
                                     android:layout_marginStart="5dp"
                                     android:layout_marginTop="5dp"
                                     android:layout_marginEnd="5dp"
+                                    android:contentDescription="@string/user"
                                     android:scaleType="fitXY"
                                     app:layout_constraintEnd_toEndOf="parent"
                                     app:layout_constraintStart_toStartOf="parent"
@@ -338,12 +355,13 @@
                                 android:layout_height="wrap_content">
 
                                 <ImageView
-                                    android:id="@+id/imageView11"
+                                    android:id="@+id/imageView13"
                                     android:layout_width="120dp"
                                     android:layout_height="120dp"
                                     android:layout_marginStart="5dp"
                                     android:layout_marginTop="5dp"
                                     android:layout_marginEnd="5dp"
+                                    android:contentDescription="@string/user"
                                     app:layout_constraintEnd_toEndOf="parent"
                                     app:layout_constraintStart_toStartOf="parent"
                                     app:layout_constraintTop_toTopOf="parent"
@@ -358,7 +376,7 @@
 
         <androidx.constraintlayout.widget.ConstraintLayout
             android:layout_width="match_parent"
-            android:layout_height="134dp">
+            android:layout_height="wrap_content">
 
             <RadioGroup
                 android:layout_width="161dp"
@@ -371,7 +389,7 @@
                 <RadioButton
                     android:id="@+id/radioButton"
                     android:layout_width="match_parent"
-                    android:layout_height="30dp"
+                    android:layout_height="48dp"
                     android:fontFamily="@font/inter_copy"
                     android:text="@string/moscow"
                     android:textColor="@color/violette900"
@@ -380,7 +398,7 @@
                 <RadioButton
                     android:id="@+id/radioButton2"
                     android:layout_width="match_parent"
-                    android:layout_height="30dp"
+                    android:layout_height="48dp"
                     android:fontFamily="@font/inter_copy"
                     android:text="@string/st_peter"
                     android:textColor="@color/violette900"
@@ -389,7 +407,7 @@
                 <RadioButton
                     android:id="@+id/radioButton3"
                     android:layout_width="match_parent"
-                    android:layout_height="30dp"
+                    android:layout_height="48dp"
                     android:fontFamily="@font/inter_copy"
                     android:text="@string/novosibirsk"
                     android:textColor="@color/violette900"
@@ -398,24 +416,26 @@
                 <RadioButton
                     android:id="@+id/radioButton4"
                     android:layout_width="match_parent"
-                    android:layout_height="30dp"
+                    android:layout_height="48dp"
                     android:fontFamily="@font/inter_copy"
                     android:text="@string/vladivostok"
                     android:textColor="@color/violette900"
                     tools:text="@string/vladivostok" />
+
             </RadioGroup>
         </androidx.constraintlayout.widget.ConstraintLayout>
 
         <androidx.constraintlayout.widget.ConstraintLayout
             android:layout_width="match_parent"
-            android:layout_height="224dp">
+            android:layout_height="wrap_content">
 
             <ImageView
-                android:id="@+id/imageView13"
-                android:layout_width="120dp"
-                android:layout_height="120dp"
+                android:id="@+id/imageView14"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
                 android:layout_marginStart="16dp"
                 android:layout_marginTop="16dp"
+                android:contentDescription="@string/photo_of_tree"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent"
                 app:srcCompat="@drawable/photo_peizaj" />
@@ -424,12 +444,13 @@
                 android:id="@+id/textView9"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginStart="16dp"
-                android:layout_marginTop="7dp"
+                android:layout_marginStart="29dp"
+                android:layout_marginTop="47dp"
                 android:text="@string/info"
-                android:textColor="@color/yellow900"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/imageView13" />
+                android:textColor="@color/violette700"
+                app:layout_constraintStart_toEndOf="@+id/imageView14"
+                app:layout_constraintTop_toTopOf="parent" />
+
         </androidx.constraintlayout.widget.ConstraintLayout>
     </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>

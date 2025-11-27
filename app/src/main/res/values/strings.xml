@@ -2,8 +2,12 @@
     <string name="app_name">PZ7ValovMaximPr-23101</string>
 
     <string name="register_icon">Регистрация</string>
+    <string name="register_icon_desc">Иконка регистрации</string>
+    <string name="photo_of_tree">Фото дерева</string>
     <string name="help_icon">Помощь</string>
+    <string name="help_icon_desc">Иконка помощи</string>
     <string name="enter_icon">Вход</string>
+    <string name="enter_icon_desc">Иконка входа</string>
     <string name="entry_name">Введите ваше имя</string>
     <string name="entry_surname">Введите вашу фамилию</string>
     <string name="entry_number">Введите ваш контактный номер</string>
@@ -19,6 +23,8 @@
     <string name="novosibirsk">Новосибирск</string>
     <string name="vladivostok">Владивосток</string>
     <string name="info">Подробная информация</string>
+    <string name="search">Поиск</string>
+    <string name="user">Пользователь</string>
 
     <string name="user_1">Владислав Сибиркин</string>
     <string name="user_2">Владислав Савриков</string>
